@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --heading-font: "Montserrat", sans-serif;
+    --paragraph-font: "Lato", sans-serif;
+    
+    --primary-color: #62B2E9;
+    --secondary-color: #272A80 ;
+    --accent1-color: #F25E40;
+    --accent2-color: #cccccc;
+    --bg-color: #353941;
+    --nav-color: #1E1E1E;
+    --nav-hover-background-color: #272A80;
+    --nav-hover-link-color: white;
+
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+a, p {
+    font-family: var(--paragraph-font);
+}
+
+
+h1 {
+    font-family: var(--heading-font);
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    color: var(--accent2-color);
+    background-color: var(--nav-color);
+    padding: 10px;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+
+p {
+    color: var(--primary-color);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.accent {
+    color: var(--accent1-color);
+}
+
+#gh {
+    padding: 0%;
+}
