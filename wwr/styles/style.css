@@ -286,3 +286,39 @@ footer {
         margin-top: 25px;
     }
 }
+
+#faq {
+    text-align: center;
+}
+
+details {
+    padding: 10px; 
+    border-radius: 5px;
+    background-color: rgb(76, 76, 76);
+  }
+  
+
+  summary {
+    background-color:rgb(76, 76, 76);
+    color: white;
+    padding: 10px;
+  }
+
+.faq-content {
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+strong {
+    font-size: 26px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
