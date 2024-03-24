@@ -18,7 +18,7 @@ img {
     text-align: center;
     width: 60%;
     justify-self: center;
-
+    height: 80%;
 
 }
 
@@ -47,3 +47,33 @@ p {
 h1 {
     color: #cccccc;
 }
+
+@media (max-width: 1579px) {
+    .homepage-text {
+      height: 83%;
+    }
+  }
+  
+@media (max-width: 1415px) {
+    .homepage-text {
+      height: 87%;
+    }
+  }
+
+  @media (max-width: 1397px) {
+    .homepage-text {
+      height: 89%;
+    }
+  }
+
+  @media (max-width: 1316px) {
+    .homepage-text {
+      height: 92%;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    .homepage-text {
+      height: 95%;
+    }
+  }
