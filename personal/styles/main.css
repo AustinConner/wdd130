@@ -1,0 +1,62 @@
+/* font import */ 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* */
+:root {
+    --headingfont: "Montserrat", sans-serif;
+    --paragraphfont: "Lato", sans-serif;
+}
+
+
+/* navigation */
+header {
+    background-color: #1e1e1e;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.site-logo {
+    margin-right: auto;
+    height: auto;
+}
+
+nav a {
+    color: #cccccc;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #272A80;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    border-radius: 3px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: var(--headingfont);
+}
+
+p {
+    font-family: var(--paragraphfont);
+}
+
+a {
+    font-family: var(--paragraphfont);
+}
+
