@@ -1,0 +1,52 @@
+@import "main.css";
+
+.top-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.img-aside {
+    grid-column: 1;
+    grid-row: 1;
+    box-shadow: 10px 0 10px -5px #333;
+
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    align-content: stretch;
+    align-items: center;
+    height: fit-content;
+    margin-top: 10%;
+}
+
+.card {
+    background-color: #333;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+    text-wrap: wrap;
+    min-height: 120px;
+    text-align: center;
+    width: 80%;
+}
+
+
+p {
+    color: #cccccc;
+    font-size: 16px;
+    text-wrap: wrap;
+}
+
+.heading1 {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #62B2E9;
+}

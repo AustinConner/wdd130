@@ -1,0 +1,51 @@
+@import "main.css";
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, auto);
+}
+
+#pic {
+    grid-row: span 3;
+    grid-column: 2;
+    align-self: stretch;
+}
+
+.homepage-text {
+    grid-column: 1;
+    text-align: center;
+    width: 60%;
+    justify-self: center;
+    align-self: center;
+    padding: 50px 0;
+    margin-top: 20%;
+}
+
+.cta {
+    background-color: #62B2E9;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.cta:hover {
+    background-color: #0099ff;
+}
+
+p {
+    color: #cccccc;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.homepage-text {
+    background-color: #353941;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1 {
+    color: #cccccc;
+}
