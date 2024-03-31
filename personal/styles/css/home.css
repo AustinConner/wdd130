@@ -10,6 +10,7 @@
     grid-row: span 3;
     grid-column: 2;
     align-self: stretch;
+    box-shadow: -10px 0 10px -5px #333;
 }
 
 .homepage-text {
@@ -20,6 +21,7 @@
     align-self: center;
     padding: 50px 0;
     margin-top: 20%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .cta {
@@ -28,6 +30,7 @@
     border-radius: 4px;
     text-decoration: none;
     color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .cta:hover {
