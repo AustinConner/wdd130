@@ -1,1 +1,66 @@
 @import "main.css";
+
+.banner-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.banner-bg { grid-area: 1 / 1 / 2 / 2; }
+.banner-txt { grid-area: 1 / 1 / 2 / 2; }
+
+.banner-img {
+    display: grid;
+    min-width: 400px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-txt {
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.page-heading {
+    color: white;
+}
+
+.project-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .project-card {
+    background-color: #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+  }
+  
+  .project-card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333; /* Change color to make it more distinct */
+    text-decoration: underline;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666; /* Change color to make it more distinct */
+    margin-bottom: 10px;
+  }
+  
+  .more-info {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }

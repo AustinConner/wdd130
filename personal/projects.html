@@ -15,25 +15,37 @@
             <a href="aboutme.html">About Me</a>
         </nav>
     </header>
+<!--     
     <section class="hero-img">
-        <img src="styles/img/projects-hero.jpg" alt="Hero image" height="300px"> <!-- The hardcoded height tag will be removed when the site is being styled. Just made this way
+        <img src="styles/img/projects-hero.jpg" alt="Hero image" height="300px"> The hardcoded height tag will be removed when the site is being styled. Just made this way
         so the page is easier to see overall. -->
-        <h1 class="hero-text">Projects</h1>
-    </section>
-    <main>
-        <p>Here are some projects that I've been tinkering with to explore different technologies. Click on any of the cards below to learn more!</p>
+        <!-- <h1 class="hero-text">Projects</h1>
+    </section>  -->
+<div class="banner-container">
+    <div class="banner-bg">
+        <img class="banner-img" src="styles/img/projects-hero.jpg" alt="background image">
+    </div>
+    <div class="banner-txt">
+        <h1 class="page-heading">Projects</h1>
+    </div>
+</div>
+
+
+    <main class="content">
+        <p class="more-info">Here are some projects that I've been tinkering with to explore different technologies!</p>
         <div class="project-card-container">
             <div class="project-card">
-                <h1>Automating Windows Installations With WDS and MDT</h1>
-                <p>At work, we've been imaging computers manually. It's a process that takes a fair amount of time and I wanted to find out if there was a way to automate it. This project is a work in progress.</p>
+                <h1>Automating Windows Setup</h1>
+                <p>At work, we've been configuring computers manually. It's a process that takes a fair amount of time and I wanted to find out if there was a way to automate it. What I've been experimenting with is called Windows Configuration Designer (WCD). You use it to create a .ppkg file and put that file on your thumb drive and when you get to the Out of Box Experience, you plug in the flash drive, and it grabs the configuration package. </p>
+                <p>I currently have a (WIP) ppkg file that adds a run-once registry key to the computer that runs a script that gets transfered, creates and admin account, and then runs a script to transfer files to the C:\program_data folder. Once it gets done with itself, it takes you to the windows desktop. The run-once key causes a .batch file with all of the installers silent installation parameters and installs the programs one by one. In about 15-20 minutes, setup is mostly complete. I'm still trying to automate more of the standard workflow.</p>
             </div>
             <div class="project-card">
                 <h1>Better Documentation</h1>
-                <p>At work, our documentation is all kept in a very fun (downright horrible) shared network drive. This documentation is nothing short from miserable to navigate, so I found a static site generator called Hugo which allows users to create documentaion using simple markdown which can be rendered on my computer and either deployed to the server or put onto the company drive to be accessed later.</p>
+                <p>At work, our documentation is all kept in a very fun (downright horrible) shared network drive. This documentation is nothing short from miserable to navigate, so I found a static site generator called Hugo which allows users to create documentation using simple markdown which can be rendered on my computer and either deployed to the server or put onto the company drive to be accessed later. Those HTML files can be indexed and then searched for using a plugin within hugo on a static webpage. This allows for better search funtionality and allows end users to better find what they are looking for.</p>
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <a href="site-plan.html">Site Plan</a>
     </footer>
 </body>

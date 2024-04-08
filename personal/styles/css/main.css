@@ -72,3 +72,17 @@ a {
     font-family: var(--paragraphfont);
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content {
+    flex: 1;
+}
+
+.footer {
+    text-align: center;
+}
