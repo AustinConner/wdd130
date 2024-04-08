@@ -86,3 +86,7 @@ body {
 .footer {
     text-align: center;
 }
+
+#image-link:hover {
+    cursor: pointer;
+}

@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav class="navigation">
-            <img class="site-logo" src="styles/img/logo-crop.gif" alt="Logo" width="300px">
+            <img id="image-link" class="site-logo" src="styles/img/logo-crop.gif" alt="Logo" width="300px">
             <a href="index.html">Home</a>
             <a href="projects.html">My Projects</a>
             <a class="current-nav" href="aboutme.html">About Me</a>
@@ -80,4 +80,13 @@
         <a href="site-plan.html">Site Plan</a>
     </footer>
 </body>
+
+<script>
+    document.getElementById("image-link").onclick = function() {
+    window.location.href = "index.html"; // Replace "https://example.com" with your desired URL
+    return false; // This prevents the default behavior of the link (opening a new window)
+};
+
+</script>
+
 </html>
